@@ -1,0 +1,108 @@
+@media print {
+    h1 {
+        color: black;
+        letter-spacing: 3px;
+    }
+    h2 {
+        color: black;
+    }
+    h3 {
+        color: black;
+    }
+    p {
+        text-indent: 10%;
+    }
+    body {
+        width: 960px;
+        background: black;
+        background-repeat: round;
+        background-position: center;
+    }
+    table,
+    th,
+    td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    table {
+        background-color: black;
+    }
+    .upper {
+        text-transform: uppercase;
+    }
+    .col1 {
+        background-color: white;
+    }
+    .col2 {
+        background-color: white;
+    }
+    thead {
+        background-color: white;
+        font-family: "Bodoni MT";
+        text-transform: uppercase;
+    }
+    tbody {
+        font-style: italic;
+    }
+    ol {
+        list-style-type: upper-roman;
+    }
+    ol ol {
+        list-style-type: lower-roman;
+    }
+    ol ol ol {
+        list-style-type: lower-greek;
+    }
+    #photo1 {
+        margin-right: 50px;
+        position: relative;
+        float: left;
+        width: 250px;
+        height: 300px;
+        margin-bottom: 3%;
+        filter: grayscale(100%);
+    }
+    #photo2 {
+        margin-left: 50px;
+        position: relative;
+        float: right;
+        width: 250px;
+        height: 300px;
+        margin-bottom: 3%;
+        filter: grayscale(100%);
+    }
+    #tytul {
+        font-size: 30px;
+        background: white;
+        width: 100%;
+        white-space: nowrap;
+        position: static;
+    }
+    #tresc {
+        height: 100%;
+        background: white;
+        margin-left: 50px;
+        position: relative;
+    }
+    #val {
+        display: none;
+    }
+    #spis_tresci {
+        display: none;
+    }
+    #menu {
+        display: none;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    a:active {
+        text-decoration: none;
+    }
+}

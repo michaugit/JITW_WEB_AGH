@@ -1,0 +1,208 @@
+﻿ body {
+     font-family: 'Helvetica', sans-serif;
+     background: #C6CECE;
+ }
+ 
+ #Tytuł {
+     width: 100%;
+     text-align: center;
+     white-space: nowrap;
+     background-color: #eb2f06;
+     border-color: solid #000;
+     border-style: solid;
+     color: white;
+ }
+ 
+ h1 {
+     color: black;
+     font-size: 70px;
+     position: center;
+ }
+ 
+ h2 {
+     color: black;
+     font-size: 20px;
+     position: center;
+ }
+ 
+ h2 {
+     color: gray;
+     font-size: 15px;
+     position: center;
+ }
+ 
+ #Spis_treści {
+     margin-left: 20%;
+     margin-right: 20%;
+     width: 60%;
+     text-align: center;
+     background-color: #333;
+     border: 10px solid #000;
+     list-style-type: none;
+     color: white;
+ }
+ 
+ #Spis_treści ul li {
+     display: inline-block;
+     border-collapse: separate;
+     width: 50%;
+     background-color: #736867;
+     border-color: solid #000;
+     border-style: solid;
+     list-style-type: none;
+     font-size: 25px;
+     position: center;
+ }
+ 
+ #Spis_treści ul {
+     position: center;
+ }
+ 
+ li a {
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 20px 14px;
+     text-decoration: none;
+ }
+ 
+ ul li {
+     display: inline-block;
+     background-color: #736867;
+     border-color: solid black;
+     border-collapse: separate;
+     border-style: solid;
+     margin-left: -20px;
+     margin-right: 20px;
+     margin: 0 auto;
+ }
+ 
+ #Spis_treści li a {
+     color: #000;
+     padding: 2px 10px;
+     text-decoration: none;
+ }
+ 
+ #Spis_treści li a.active {
+     background-color: #111;
+     color: red;
+     cursor: default;
+ }
+ 
+ li a:hover {
+     background-color: #111;
+     color: red;
+ }
+ 
+ #Spis_treści li a:hover:not(.active) {
+     color: red;
+     background-color: #333;
+     cursor: default;
+ }
+ 
+ a:hover {
+     color: red;
+     cursor: default;
+ }
+ 
+ #menu {
+     list-style-type: none;
+     position: static;
+     width: 50%;
+     border: 10px solid #000;
+     text-align: center;
+     float: none;
+     margin-left: 25%;
+     margin-right: 25%;
+ }
+ 
+ #menu ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: #333;
+     position: relative;
+     width: 100%;
+ }
+
+ #lista {
+    list-style-type: none;
+    position: static;
+    width: 50%;
+    text-align: center;
+    float: none;
+    margin-top: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#lista li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-color: black;
+}
+
+#lista li:hover {
+    background-color: #111;
+    color: red;
+}
+
+#lista ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+
+    .form_chat {
+        
+    width: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    text-align: center;
+    background-color: #333;
+    list-style-type: none;
+    color: white;
+    
+    }
+    .form_group {
+        text-align: center;
+        
+    }
+
+    .chat {
+        margin-left: 23%;
+        margin-right: 23%;
+        width: 55%;
+        text-align: center;
+        background-color:#333;
+        list-style-type: none;
+        color: white;
+        border: 8px solid #000;
+        
+      }
+      
+      .chat__group {
+        margin-bottom: 10px;
+      }
+      
+      .chat__group label {
+        font-weight: bold;
+      }
+      
+      .chat__room {
+        line-height: 1.5;
+        width: 90%;
+        height: 400px;
+      }
+      
+      .form__group #message {
+        width: 75%;
+        height: 17px;
+      }

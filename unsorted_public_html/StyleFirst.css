@@ -1,0 +1,204 @@
+    h1 {
+        color: red;
+        letter-spacing: 3px;
+    }
+    
+    h2 {
+        color: blue;
+    }
+    
+    h3 {
+        color: blueviolet;
+    }
+    
+    p {
+        text-indent: 10%;
+    }
+    
+    body {
+        font-style: oblique;
+        background: hsla(0, 0%, 81%, 0.9);
+    }
+    
+    table,
+    th,
+    td {
+        border: 2px solid red;
+        border-collapse: collapse;
+    }
+    
+    table {
+        background-color: gold;
+    }
+    
+    .upper {
+        text-transform: uppercase;
+    }
+    
+    .col1 {
+        background-color: white;
+    }
+    
+    .col2 {
+        background-color: cyan;
+    }
+    
+    .col3 {
+        background-color: gold;
+    }
+    
+    thead {
+        background-color: hotpink;
+        font-family: "Bodoni MT";
+        text-transform: uppercase;
+    }
+    
+    tbody {
+        font-style: italic;
+    }
+    
+    ol {
+        list-style-type: upper-roman;
+    }
+    
+    ol ol {
+        list-style-type: lower-roman;
+    }
+    
+    ol ol ol {
+        list-style-type: lower-greek;
+    }
+    
+    #photo1 {
+        margin-right: 50px;
+        position: relative;
+        float: left;
+        width: 250px;
+        height: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 3%;
+    }
+    
+    #photo2 {
+        margin-left: 50px;
+        position: relative;
+        float: right;
+        width: 250px;
+        height: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 3%;
+    }
+    
+    #tytul {
+        font-size: 30px;
+        background: hsla(44, 97%, 47%, 0.719);
+        width: 100%;
+        white-space: nowrap;
+        position: static;
+        text-align: center;
+    }
+    
+    #tresc {
+        max-width: 960px;
+        min-width: 640px;
+        height: 100%;
+        background: hsla(46, 78%, 65%, 0.918);
+        margin-left: 250px;
+        position: relative;
+    }
+    
+    #val {
+        width: 960px;
+        height: 100%;
+        margin-left: 150px;
+    }
+    
+    @media screen and (max-width: 870px) {
+        #tresc {
+            z-index: -1;
+            margin-left: 80px;
+            transition: 1s;
+        }
+        #menu {
+            position: fixed;
+            display: block;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: bold;
+            background: hsla(240, 20%, 80%, 0.9);
+            border-color: black;
+            border-collapse: separate;
+            border-style: inset;
+            text-align: center;
+            width: 60px;
+            height: 25px;
+        }
+/*      #menu:hover+#spis_tresci {
+            z-index: 2;
+            left: 0px;
+            transition: 1s;
+        }*/
+        #spis_tresci {
+            transition: 1s;
+            width: 220px;
+            height: 100%;
+            left: -220px;
+            float: left;
+            text-align: center;
+            background: hsla(80, 90%, 40%, 0.925);
+            margin-right: 2%;
+            position: fixed;
+        }
+        #spis_tresci:hover {
+            left: 0px;
+        }
+        #spis_tresci:hover+#menu {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 871px) {
+        #tresc {
+            margin-left: 250px;
+            transition: 1s;
+        }
+        #menu {
+            display: none;
+        }
+        #spis_tresci {
+            transition: 1s;
+            width: 220px;
+            height: 100%;
+            left: 0px;
+            float: left;
+            text-align: center;
+            background: hsla(80, 90%, 40%, 0.7);
+            margin-right: 2%;
+            position: fixed;
+        }
+    }
+    
+    #spis_tresci ul li {
+        background: hsla(91, 56%, 46%, 0.9);
+        border-color: black;
+        border-collapse: separate;
+        border-style: inset;
+        text-align: center;
+    }
+    
+    #spis_tresci ul li:hover {
+        cursor: default;
+        color: red;
+    }
+    
+    a:hover {
+        cursor: default;
+        color: yellow;
+    }
+    
+    p:first-letter {
+        color: purple;
+        font-family: "Comic Sans MS";
+        font-weight: bold;
+        font-size: large;
+    }

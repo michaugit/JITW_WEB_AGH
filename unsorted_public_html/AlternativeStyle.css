@@ -1,0 +1,143 @@
+#menu {
+    display: none;
+}
+
+h1 {
+    color: red;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: gold;
+}
+
+p {
+    text-indent: 10%;
+}
+
+body {
+    font-style: oblique;
+    background: hsla(0, 0%, 81%, 0.9);
+}
+
+table,
+th,
+td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+table {
+    background-color: gold;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.col1 {
+    background-color: white;
+}
+
+.col2 {
+    background-color: cyan;
+}
+
+.col3 {
+    background-color: gold;
+}
+
+thead {
+    background-color: hotpink;
+    font-family: "Bodoni MT";
+    text-transform: uppercase;
+}
+
+tbody {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+
+ol ol ol {
+    list-style-type: lower-greek;
+}
+
+#photo1 {
+    float: left;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+
+#photo2 {
+    float: right;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+
+#tytul {
+    font-size: 30px;
+    background: hsla(48, 100%, 50%, 0.7);
+    width: 100%;
+    white-space: nowrap;
+}
+
+#tresc {
+    width: 100%;
+    height: 100%;
+    background: hsla(46, 78%, 65%, 0.918);
+    float: left;
+    position: relative;
+    display: inline;
+}
+
+#spis_tresci {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    text-align: center;
+    background: hsla(80, 90%, 40%, 0.7);
+    margin-right: 2%;
+    margin-bottom: 4%;
+    list-style: none;
+}
+
+#spis_tresci ul li {
+    background: hsla(91, 56%, 46%, 0.9);
+    border-color: black;
+    border-collapse: separate;
+    border-style: inset;
+    text-align: center;
+    display: inline;
+}
+
+#spis_tresci ul li:hover {
+    cursor: default;
+    color: red;
+}
+
+a:hover {
+    cursor: default;
+    color: yellow;
+}
+
+p:first-letter {
+    color: purple;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: large;
+}
